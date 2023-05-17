@@ -42,6 +42,10 @@ header {
     color: #fff;
 }
 
+.list-inline-item:not(:last-child){
+    margin: 0;
+
+}
 .ui-menu-color-home {
     background-color: #e67e22;
 
@@ -59,4 +63,13 @@ header {
 .ui-menu-color-download {
     background-color: #525252;
     
+}
+
+.menucontainer {
+     font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
