@@ -22,6 +22,11 @@
     background-color: #525252;
 }
 
+
+.inline-block{
+    display: inline-block;
+    
+}
 /*--------------------------------------------Heading*/
 
 header {
