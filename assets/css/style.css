@@ -11,7 +11,7 @@
 }
 
 .bg-color-personal-info {
-    background-color: rgb(244, 244, 244);
+    background-color: #f4f4f4;
 }
 
 .ui-menu-color-home {
@@ -28,23 +28,6 @@
 
 .ui-menu-color-download {
     background-color: #525252;
-}
-
-.row-table {
-    display: table;
-}
-
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
-
-.section-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
 }
 
 /* ----------------------------------------Special paddings/margins/text */
@@ -243,7 +226,7 @@ footer {
     margin-bottom: 15px;
 }
 
-/* ----------------------------------------Personal info */
+/* ----------------------------------------Personal Info */
 
 .personal-info-item {
     margin-bottom: 20px;
@@ -251,16 +234,16 @@ footer {
     clear: both;
 }
 
-.personal-info-item .key, 
+.personal-info-item .key,
 .personal-info-item .value {
     padding-right: 8px;
     display: inline-block;
 }
 
-.personal-info-item .key p, 
+.personal-info-item .key p,
 .personal-info-item .value p {
     margin: 0;
-} 
+}
 
 .personal-info-item .key {
     width: 30%;
@@ -276,4 +259,25 @@ footer {
 .personal-info-item .value {
     position: relative;
     width: 60%;
+}
+
+/* ----------------------------------------Skills */
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
 }
